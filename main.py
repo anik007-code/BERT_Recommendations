@@ -3,6 +3,7 @@ import torch
 from transformers import AdamW, BertForSequenceClassification
 from data_loader.data_loader import load_data_from_csv
 from evaluations.evaluate import evaluate_model
+from predictions.predict import predict
 from recommendation.recommendation import train_bert_model, save_model, create_dataloader
 from sklearn.model_selection import train_test_split
 
